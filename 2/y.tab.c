@@ -1574,6 +1574,7 @@ yyreturn:
 
 int main()
 {
+printf("Enter the expression : ");
 yyparse();
 }
 int yyerror (char *msg)
